@@ -4,11 +4,21 @@ All notable changes to the Gibs API.
 
 ---
 
-## [Unreleased]
+## [0.5.2] - 2026-02-22
 
-### Coming Soon
-- NIS2 regulation support
-- Additional provider evaluation benchmarks
+### Added
+- **Knowledge graph** — cross-reference retrieval powered by a graph database with 2,550 nodes and 3,879 typed edges across all three regulations
+- **AI agent discoverability** — `llms.txt` and AI-friendly `robots.txt` at gibs.dev for LLM and agent crawlers
+- **MCP server authentication** — connections now require API key authorization
+
+### Improved
+- **GDPR corpus expanded** — full coverage of all 99 articles + 173 recitals (644 chunks, up from 276)
+- **Retrieval precision** — graph-enhanced pipeline with multi-level enrichment and reranking reduces noise in single-regulation queries
+- **Accuracy** — 96% on AI Act, 98% on GDPR, 95% on cross-regulation, 93% on DORA (200 expert-curated questions)
+
+### Corpus
+- AI Act: 836 chunks | GDPR: 644 chunks | DORA: 641 chunks
+- Total: 2,121 indexed legal chunks across 3 regulations
 
 ---
 
