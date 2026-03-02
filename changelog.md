@@ -4,6 +4,17 @@ All notable changes to the Gibs API.
 
 ---
 
+## [0.5.4] - 2026-03-02
+
+### Fixed
+- **DORA query routing** — resolved collection routing issue that caused DORA regulation queries to fail
+- **GDPR corpus sync** — production corpus updated to match full 644-chunk index (all 99 articles + 173 recitals)
+
+### Verified
+- All 3 regulations (AI Act, DORA, GDPR) confirmed operational with end-to-end query validation
+
+---
+
 ## [0.5.3] - 2026-02-23
 
 ### Added
