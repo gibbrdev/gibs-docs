@@ -4,6 +4,14 @@ All notable changes to the Gibs API.
 
 ---
 
+## [0.5.8] - 2026-03-19
+
+### Improved
+- **Cross-regulation accuracy** — queries mentioning multiple regulations (e.g., DORA + GDPR) now retrieve from all relevant corpora in parallel. Significantly better answers for cross-cutting compliance questions
+- **Abstention precision** — improved scope detection for national implementation details, uncovered regulations, and vendor-specific compliance assessments
+
+---
+
 ## [0.5.7] - 2026-03-12
 
 ### Added
